@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.img img{
+    width :100% ;
+    height: 100vh;
+    position: absolute;
+}
+
+.logo img{
+    margin-left: 10%;
+    width: 10%;
+    height: 40px;
+    margin-top: 20px;
+
+}
+.signin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-right: 10%;  
+}
+
+.header{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.635);
+    height: 100vh;
+}
+h1{
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+h2{
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.headbtn{
+    background-color: red;
+    height:35px;
+    width: 75px;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.head{
+    width: 130px;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.center{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.center h1{
+    font-size: 60px;
+   
+}
+
+.center h2{
+    font-size: 30px;
+   
+}
+
+.start{
+    margin-top: 40px;
+    text-align: center;
+}
+.onee{
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    border-radius: 5px;
+}
+
+.start input{
+    width: 500px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.614);
+    font-size: 20px;
+}
+
+.hero{
+    background-color: black;
+}
+
+.left{
+margin-left: 100px;
+
+}
+.hero1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 40px;     
+    padding-right: 80px;
+    padding-bottom: 220px;
+}
+
+
+.tv{
+    position: relative;
+    right: 30%;
+}
+.video{
+    z-index: 9999;
+    position: absolute;
+    top: -30%;
+    right: 80px;
+    width: 100%;
+
+}
+.containe{
+    margin-top: 50px;
+}
+
+.left h1{
+    font-size:50px;
+}
+.left h2{
+    font-size: 25px;
+}
+
+.line{
+    height: 10px;
+    width: 100%;
+    background-color:rgb(115, 109, 109) ;
+}
+
+
+.tv3{
+    position: relative;
+    right: 30%;
+    
+}
+.video3{
+    z-index: 9999;
+    position: absolute;
+    top: -15%;
+    right: 100px;
+    width: 100%;
+
+}
+
+.fourth{
+    display: flex;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 40px;     
+    padding-right: 80px;
+    padding-bottom: 10px;
+}
+.fourth h1{
+    font-size: 60px;
+       
+}
+    
+.fourth h2{
+    font-size: 20px;
+       
+}
+
+.gif{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 2px;
+    border: 2px solid rgba(255, 255, 255, 0.473);
+    border-radius: 5px;
+    position: relative;
+    top: -110px;
+    left: 160px;
+    width: 330px;
+    height: 75px;
+    background-color: black;
+}
+
+.gif img{
+    width: 50px;
+}
+
+.fifth{
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+
+.word h1{
+    font-size: 15px;
+}
+.word h2{
+    font-size: 15px;
+    color: blue;
+}
+
+.heading{
+    font-size: 25px;
+    padding: 2%;
+    text-align: center;
+}
+
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: rgba(45, 45, 45, 0.815);
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.icon{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.btnbottom{
+    font-size: 12px;
+    font-weight: inherit;
+    margin: 5%;
+    text-align: center;
+}
+
+.last{
+background-color: black;
+font-size: 50%;
+color: antiquewhite;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+.lastline{
+display: flex;
+justify-content: space-around;
+font-size: 20px;
+padding: 40px;
+color: rgba(45, 45, 45, 0.815);
+
+}
+.lastline a{
+    color: rgba(250, 245, 245, 0.982);
+    margin: 2%;
+}
+.question{
+    margin-left: 140px;
+    font-size: large;
+    padding-top: 7%;
+}
+
+.lastl{
+    margin-left: 110px;
+    padding: 2%;
+}
+.lastl h1{
+    font-size: medium;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    color: rgba(250, 245, 245, 0.982);
+}
